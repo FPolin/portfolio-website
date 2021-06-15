@@ -1,4 +1,4 @@
-import React from 'react';
+import Image from 'next/image'
 import Layouts from "../Layouts"
 import Particles from 'react-particles-js';
 import particleConfig from '../config/particle-config';
@@ -13,7 +13,7 @@ export default function Home() {
             <Particles params={particleConfig} />
           </div>
           <div style={{position: 'relative', display:'flex', alignItems: 'center'}}>
-            <img style={{height: 80, width: 80}} src={img} alt='not found' />
+            <Image style={{height: 80, width: 80}} src={img} alt='not found' />
             <p style={{color: 'white', fontSize: 60}}>Under Construction</p>
           </div>
         </div>
