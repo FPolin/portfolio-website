@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Layouts from "../Layouts"
 import Particles from 'react-particles-js';
 import particleConfig from '../config/particle-config';
-const img = '/images/warning.png';
+import img from '../public/images/warning.png';
 
 export default function Home() {
   return (
@@ -13,8 +13,13 @@ export default function Home() {
             <Particles params={particleConfig} />
           </div>
           <div style={{position: 'relative', display:'flex', alignItems: 'center'}}>
-            <Image style={{height: 80, width: 80}} src={img} alt='not found' />
-            <p style={{color: 'white', fontSize: 60}}>Under Construction</p>
+            <Image 
+              width={60} 
+              height={60} 
+              src={img} 
+              alt='not found' 
+            />
+            <p style={{color: 'white', fontSize: 60, marginLeft: 10}}>Under Construction</p>
           </div>
         </div>
       </Layouts>
