@@ -1,9 +1,10 @@
 import React from 'react';
+import { LogoIcon } from '../../components';
 
 const Header = () => {
     return (
-        <div>
-           
+        <div className={'relative z-20 mt-10 ml-5'}>
+            <LogoIcon />
         </div>
     )
 }

@@ -1,7 +1,7 @@
 const particleConfig = {
     particles: {
       number: {
-        value: 100,
+        value: 80,
         density: {
           enable: true,
           value_area: 1000
@@ -11,7 +11,7 @@ const particleConfig = {
         value: "#ffffff"
       },
       shape: {
-        type: "circle",
+        type: "triangle",
         stroke: {
           width: 0,
           color: "#000000"
@@ -30,7 +30,7 @@ const particleConfig = {
         random: false,
         anim: {
           enable: false,
-          speed: 1,
+          speed: .5,
           opacity_min: 0.1,
           sync: false
         }
@@ -40,7 +40,7 @@ const particleConfig = {
         random: true,
         anim: {
           enable: false,
-          speed: 10,
+          speed: 5,
           size_min: 0.1,
           sync: false
         }
@@ -54,7 +54,7 @@ const particleConfig = {
       },
       move: {
         enable: true,
-        speed: 1.5,
+        speed: .5,
         direction: "none",
         random: false,
         straight: false,
@@ -62,8 +62,8 @@ const particleConfig = {
         bounce: false,
         attract: {
           enable: false,
-          rotateX: 600,
-          rotateY: 1000
+          rotateX: 500,
+          rotateY: 800
         }
       }
     },
@@ -82,7 +82,7 @@ const particleConfig = {
       },
       modes: {
         grab: {
-          distance: 400,
+          distance: 200,
           line_linked: {
             opacity: 1
           }
