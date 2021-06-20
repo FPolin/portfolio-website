@@ -1,0 +1,8 @@
+.items li {
+  font-size: 15px;
+  color: rgb(255, 238, 238);
+  font-weight: 300;
+  font-family: "Oswald";
+  display: flex;
+  margin-top: 25px;
+}

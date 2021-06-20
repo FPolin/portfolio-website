@@ -1,17 +1,13 @@
-import Image from 'next/image';
-import img from '../../../../public/images/warning.png';
-
+import style from './style.module.css';
 
 const Intro = () => {
     return (
-        <div style={{display:'flex', justifyContent:'center', alignItems: 'center'}}>
-            <Image 
-              width={60} 
-              height={60} 
-              src={img} 
-              alt='not found' 
-            />
-            <p style={{color: 'white', fontSize: 60, marginLeft: 10}}>Under Construction</p>
+        <div className={'h-screen grid items-center'}>
+            <div className={`${style['content']}`}>
+                <p className={`${style['hello']}`}>Hi,</p>
+                <p className={`${style['name']}`}>I'm Fuzail Polin</p>
+                <p className={`${style['about']}`}>I am a Web Developer.</p>
+            </div>
         </div>
     );
 }

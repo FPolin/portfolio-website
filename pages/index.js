@@ -11,7 +11,7 @@ export default function Home() {
           <div className={'absolute'}>
             <Background />
           </div>
-          <div className={'relative'}>
+          <div className={'relative  w-3/4 '}>
             <Intro />
           </div>
         </div>
